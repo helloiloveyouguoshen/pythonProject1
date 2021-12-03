@@ -1,10 +1,18 @@
 import random
 from matplotlib import font_manager
 from matplotlib import pyplot as plt
+<<<<<<< HEAD
 my_font = font_manager.FontProperties(fname="/System/Library/Fonts/PingFang.ttc")
 x = range(0,120)
 y = [random.randint(20,35) for i in range(120)]
 plt.figure(figsize=(20,8),dpi=80, fontproperties=my_font)
+=======
+# my_font = font_manager.FontProperties(fname="/System/Library/Fonts/PingFang.ttc")
+x = range(0,120)
+y = [random.randint(20,35) for i in range(120)]
+plt.figure(figsize=(20,8),dpi=80)
+
+>>>>>>> 03f611a (Initial commit)
 
 
 
